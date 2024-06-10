@@ -1,5 +1,5 @@
 import streamlit as st
-from Backend import * #1
+from Backend import * 
 import tempfile
 import os
 import pandas as pd
@@ -19,7 +19,7 @@ def main():
                 pdf_bit = read_pdf(pdf_docs)
                 st.success("Processing Done!")
     if user_input:
-        response = get_output(user_input,pdf_bit)  #2
+        response = get_output(user_input,pdf_bit)  
         st.write(response)
 
 def read_pdf(pdf):

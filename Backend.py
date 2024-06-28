@@ -19,8 +19,8 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 
 warnings.filterwarnings("ignore")
 
-genai.configure(api_key="AIzaSyBAmiLQpQunz3aBgzDY9jjOwBW6jFuDp00") #my api key for google gemini
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBAmiLQpQunz3aBgzDY9jjOwBW6jFuDp00"
+genai.configure(api_key="api key here") #my api key for google gemini
+os.environ["GOOGLE_API_KEY"] = "api key here"
 arj_API = os.environ.get('GOOGLE_API_KEY') #api key to a variable
 
 #path to pytesseract in local machine
